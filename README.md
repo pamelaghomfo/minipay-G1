@@ -1,0 +1,1 @@
+# minipay-G1

@@ -1,0 +1,9 @@
+{
+  "name": "Systemes distribues",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postCreateCommand": "pip install flask requests",
+  "forwardPorts": [8080]
+}

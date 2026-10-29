@@ -1,0 +1,38 @@
+services:
+  gateway:
+    build: .
+    command: python gateway.py
+    ports:
+      - "8080:8080"
+    depends_on: [compte, paiement, notification]
+
+  compte:
+    build: .
+    command: python compte.py
+    environment:
+      DB: /data/compte.db
+    volumes:
+      - compte_data:/data
+
+  paiement:
+    build: .
+    command: python paiement.py
+    environment:
+      DB: /data/paiement.db
+      COMPTE_URL: http://compte:5001
+      NOTIF_URL: http://notification:5003
+    volumes:
+      - paiement_data:/data
+
+  notification:
+    build: .
+    command: python notification.py
+    environment:
+      LOG: /data/notifications.log
+    volumes:
+      - notif_data:/data
+
+volumes:
+  compte_data:
+  paiement_data:
+  notif_data:

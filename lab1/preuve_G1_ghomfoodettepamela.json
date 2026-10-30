@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "chapitre": 1,
+  "equipe": "G1",
+  "membre": "ghomfoodettepamela",
+  "date_utc": "2026-10-29T22:44:58+00:00",
+  "parametres": {
+    "timeout_s": 2,
+    "delai_serveur_s": 3,
+    "montant": 5000
+  },
+  "mesures": {
+    "latence_connexion_ms_moy": 0.0809,
+    "latence_connexion_ms_min": 0.0177,
+    "duree_scenario_a_s": 4.006,
+    "duree_scenario_b_s": 4.005
+  },
+  "resultats": {
+    "executions_sans_idempotence": 2,
+    "executions_avec_idempotence": 1
+  },
+  "fichiers": {
+    "serveur_py": true,
+    "client_py": true,
+    "client_reessaie": true
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "f73247c472"
+  },
+  "git": {
+    "commits": "1",
+    "auteur": "pamelaghomfo"
+  },
+  "empreinte": "92130c7bd433390f7cfbef6f5f7024d99be4519f15136dbb4cef0635faaabc81"
+}

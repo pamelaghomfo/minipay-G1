@@ -10,6 +10,8 @@ traites = set()                      # identifiants déjà traités
 while True:
     conn, addr = s.accept()
     data = conn.recv(1024).decode()
-    time.sleep(0.2)
+    compteur += 1
+    print("paiements exécutés :", compteur)
+    time.sleep(3)
     conn.sendall(("OK "+data).encode())
     conn.close()

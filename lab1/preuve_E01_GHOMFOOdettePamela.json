@@ -1,19 +1,19 @@
 {
   "version": 1,
   "chapitre": 1,
-  "equipe": "G1",
-  "membre": "ghomfoodettepamela",
-  "date_utc": "2026-10-29T22:44:58+00:00",
+  "equipe": "E01",
+  "membre": "GHOMFO Odette Pamela",
+  "date_utc": "2026-11-01T09:55:10+00:00",
   "parametres": {
     "timeout_s": 2,
     "delai_serveur_s": 3,
-    "montant": 5000
+    "montant": 8000
   },
   "mesures": {
-    "latence_connexion_ms_moy": 0.0809,
-    "latence_connexion_ms_min": 0.0177,
-    "duree_scenario_a_s": 4.006,
-    "duree_scenario_b_s": 4.005
+    "latence_connexion_ms_moy": 52.1836,
+    "latence_connexion_ms_min": 0.0184,
+    "duree_scenario_a_s": 4.095,
+    "duree_scenario_b_s": 4.006
   },
   "resultats": {
     "executions_sans_idempotence": 2,
@@ -30,8 +30,8 @@
     "hote": "f73247c472"
   },
   "git": {
-    "commits": "1",
+    "commits": "4",
     "auteur": "pamelaghomfo"
   },
-  "empreinte": "92130c7bd433390f7cfbef6f5f7024d99be4519f15136dbb4cef0635faaabc81"
+  "empreinte": "194fa5abe2e5f653ced7dc3d30cf61b9c7a4b96db2f112fc16e09229b6967eda"
 }

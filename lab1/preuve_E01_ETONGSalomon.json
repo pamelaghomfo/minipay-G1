@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "chapitre": 1,
+  "equipe": "E01",
+  "membre": "ETONG Salomon",
+  "date_utc": "2026-10-30T13:40:05+00:00",
+  "parametres": {
+    "timeout_s": 2,
+    "delai_serveur_s": 3,
+    "montant": 8000
+  },
+  "mesures": {
+    "latence_connexion_ms_moy": 0.4194,
+    "latence_connexion_ms_min": 0.025,
+    "duree_scenario_a_s": 4.008,
+    "duree_scenario_b_s": 4.005
+  },
+  "resultats": {
+    "executions_sans_idempotence": 2,
+    "executions_avec_idempotence": 1
+  },
+  "fichiers": {
+    "serveur_py": true,
+    "client_py": true,
+    "client_reessaie": true
+  },
+  "environnement": {
+    "python": "3.14.4",
+    "systeme": "Linux",
+    "hote": "438efdc6f3"
+  },
+  "git": {
+    "commits": "3",
+    "auteur": "Eksy"
+  },
+  "empreinte": "bba96b92ea7fd696a25b662bc4eb322efc903c1bc4b445e39935ceb5953f4c79"
+}
